@@ -1,10 +1,11 @@
-import { Button } from './components/ui/button';
+import Providers from './providers';
+import Layout from './layouts/Layout';
 
 function App() {
   return (
-    <div className='container'>
-      <Button>Click me</Button>
-    </div>
+    <Providers>
+      <Layout />
+    </Providers>
   );
 }
 
