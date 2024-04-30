@@ -8,7 +8,8 @@
     "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
-  "app": {"windows": [
+  "app": {
+    "windows": [
       {
         "title": "zana",
         "width": 800,
